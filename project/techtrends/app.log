@@ -1,0 +1,19 @@
+INFO:werkzeug:08/05/2023, 14:38:58: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.108:3111
+INFO:werkzeug:08/05/2023, 14:38:58: [33mPress CTRL+C to quit[0m
+INFO:werkzeug:08/05/2023, 14:39:00: 127.0.0.1 - - [05/Aug/2023 14:39:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:08/05/2023, 14:39:01: 127.0.0.1 - - [05/Aug/2023 14:39:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:08/05/2023, 14:39:02: Article "2020 CNCF Annual Report" retrieved!
+INFO:werkzeug:08/05/2023, 14:39:02: 127.0.0.1 - - [05/Aug/2023 14:39:02] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:08/05/2023, 14:39:02: 127.0.0.1 - - [05/Aug/2023 14:39:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:08/05/2023, 14:39:04: Article "KubeCon + CloudNativeCon 2021" retrieved!
+INFO:werkzeug:08/05/2023, 14:39:04: 127.0.0.1 - - [05/Aug/2023 14:39:04] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:08/05/2023, 14:39:04: 127.0.0.1 - - [05/Aug/2023 14:39:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:08/05/2023, 14:39:07: Article "Kubernetes v1.20 Release Notes" retrieved!
+INFO:werkzeug:08/05/2023, 14:39:07: 127.0.0.1 - - [05/Aug/2023 14:39:07] "GET /3 HTTP/1.1" 200 -
+INFO:werkzeug:08/05/2023, 14:39:07: 127.0.0.1 - - [05/Aug/2023 14:39:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:08/05/2023, 14:39:10: Article "Kubernetes Certification" retrieved!
+INFO:werkzeug:08/05/2023, 14:39:10: 127.0.0.1 - - [05/Aug/2023 14:39:10] "GET /6 HTTP/1.1" 200 -
+INFO:werkzeug:08/05/2023, 14:39:10: 127.0.0.1 - - [05/Aug/2023 14:39:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

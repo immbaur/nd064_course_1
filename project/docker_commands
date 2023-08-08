@@ -8,7 +8,7 @@ docker run --name techtrends -d -p 7111:3111 techtrends
 
 ## Docker commands used to get the application logs
 # TODO: insert the docker logs command
-
+docker exec -it techtrends cat /app/app.log
 
 ## Logs from the container running the TechTrends application
 # TODO: paste logs from the Docker container 
